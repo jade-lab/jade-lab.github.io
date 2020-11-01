@@ -35,7 +35,6 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#projects">Projects</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -91,11 +90,20 @@
                 <div class="row">
                     <!-- Project ANITA-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#projectANITA">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#projectModalANITA">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="assets/img/projects/anita.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- Project PROTECT -->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#projectModalPROTECT">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/projects/protect.png" alt="" />
                         </div>
                     </div>
                     <!-- Project RADON -->
@@ -108,7 +116,7 @@
                         </div>
                     </div>
                     <!-- Project SODALITE-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="col-md-6 col-lg-12 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#projectModalSODALITE">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
@@ -500,13 +508,8 @@
                                     </p>
                                     
                                     <div>
-                                        <img class="mb-5" src="assets/img/projects/flag_eu.png" alt="" style="width: 10%;"/>
+                                        <img class="mb-1" src="assets/img/projects/flag_eu.png" alt="" style="width: 10%;"/>
                                     </div>
-
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -541,7 +544,7 @@
                                     </p>
 
                                     <p class="mb-5" style="text-align:center;">
-                                        More information can be found on <a href="https://www.adaptant.io/research/sodalite/">https://www.adaptant.io/research/sodalite/</a>
+                                        More information can be found on the project <a href="https://www.sodalite.eu/">website</a>.
                                     </p>
 
                                     <p class="mb-1" style="text-align:center;">
@@ -549,12 +552,8 @@
                                     </p>
                                     
                                     <div>
-                                        <img class="mb-5" src="assets/img/projects/flag_eu.png" alt="" style="width: 10%;"/>
+                                        <img class="mb-1" src="assets/img/projects/flag_eu.png" alt="" style="width: 10%;"/>
                                     </div>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -563,7 +562,7 @@
             </div>
         </div>
         <!-- Project ANITA -->
-        <div class="portfolio-modal modal fade" id="projectANITA" tabindex="-1" role="dialog" aria-labelledby="projectANITALabel" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="projectModalANITA" tabindex="-1" role="dialog" aria-labelledby="projectANITALabel" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
@@ -599,13 +598,52 @@
                                     </p>
                                     
                                     <div>
-                                        <img class="mb-5" src="assets/img/projects/flag_eu.png" alt="" style="width: 10%;"/>
+                                        <img class="mb-1" src="assets/img/projects/flag_eu.png" alt="" style="width: 10%;"/>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Project PROTECT -->
+        <div class="portfolio-modal modal fade" id="projectModalPROTECT" tabindex="-1" role="dialog" aria-labelledby="projectPROTECTLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="projectPROTECTLabel">PROTECT</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-0" src="assets/img/projects/Protect.png" alt=""  style="width: 50%;"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5" style="text-align:justify;">
+                                        PRoTECT aims to strengthen local authorities’ capabilities in Public Protection by putting in place an overarching concept where tools, technology, training and field demonstrations will lead to situational awareness and improve direct responses to secure public places pre, in, and after a terrorist threat. This cross sectoral project is an initiative of the Core group of the European Network of Law Enforcement Technology Services (ENLETS)
+                                    </p>
+        
+                                    <p class="mb-5" style="text-align:center;">
+                                        More information can be found on the project <a href="https://protect-cities.eu/>website">website</a>.
+                                    </p>
+        
+                                    <p class="mb-1" style="text-align:center;">
+                                        PROTECT is a project funded by the European Commission. This project has received funding from the European Union’s Horizon 2020 ISFP programme.
+                                    </p>
                                     
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <div>
+                                        <img class="mb-1" src="assets/img/projects/flag_eu.png" alt="" style="width: 10%;"/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
