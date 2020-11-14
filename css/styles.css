@@ -10039,7 +10039,7 @@ hr.light {
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
+  background-color: transparent;
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
@@ -10063,27 +10063,27 @@ hr.light {
 @media (min-width: 992px) {
   #mainNav {
     box-shadow: none;
-    background-color: transparent;
+    background-color: #343a40;
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:hover {
-    color: #000;
+    color: #343a40;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #000;
+    color: #343a40;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
   }
   #mainNav.navbar-scrolled {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #000;
+    background-color: #343a40;
   }
   #mainNav.navbar-scrolled .navbar-brand {
     color: #212529;
